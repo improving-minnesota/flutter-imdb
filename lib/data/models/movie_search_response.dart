@@ -24,10 +24,10 @@ class MovieSearchResponse {
   }
 
   factory MovieSearchResponse.empty() {
-    return const MovieSearchResponse(
+    return MovieSearchResponse(
         searchType: '',
         expression: '',
-        results: [],
+        results: List.empty(growable: true),
         errorMessage: '');
   }
 }
