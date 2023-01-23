@@ -4,7 +4,17 @@ A sample project using the IMDB API
 
 ## Getting Started
 
+1. Install Flutter - https://docs.flutter.dev/get-started/install
+1. Run `flutter doctor` - ensure all the red 'x' issues are resolved.
+   1. Intellij or Android Studio is installed
+   1. Android SDK installed
+   1. Xcode is installed
+   1. It may be necessary to install cocoapods through homebrew (`brew install cocoapods`)
+1. Create emulators / simulators as necessary
+1. You will need an IMDB API Key to actually use the app
 
+
+## Possible Dev Things
 
 Command to generate mockito mocks (execute in base project directory)
 ```shell
@@ -13,7 +23,6 @@ flutter packages pub run build_runner build --delete-conflicting-outputs
 
 Possibly need these libraries for a native linux app:
 ```shell
-sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev
-sudo apt install libjsoncpp-dev
-sudo apt-get install libsecret-1-dev libjsoncpp-dev libsecret-1-0
+sudo apt install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev
+sudo apt install libsecret-1-dev libjsoncpp-dev libsecret-1-0
 ```
