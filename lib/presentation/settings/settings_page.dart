@@ -36,6 +36,7 @@ class _SettingsPageState extends ConsumerState<SettingsPage> {
               children: [
                 TextFormField(
                   controller: _apiKeyController,
+                  obscureText: true,
                   decoration: const InputDecoration(
                     labelText: 'API Key',
                   ),
